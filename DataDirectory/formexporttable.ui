@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormExportTable</class>
+ <widget class="QWidget" name="FormExportTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>547</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>Characteristics</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>TimeDateStamp</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MajorVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MinorVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Base</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>NumberOfFunctions</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>NumberOfNames</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>AddressOfFunctions</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>AddressOfNames</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>AddressOfNameOrdinals</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Offset</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Value</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="tableWidget_2">
+     <column>
+      <property name="text">
+       <string>Ordinal</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FunctionRVA</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>NameOrdinal</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FuncNameRVA</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FunctionName</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

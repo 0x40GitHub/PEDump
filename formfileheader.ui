@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormFileHeader</class>
+ <widget class="QWidget" name="FormFileHeader">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>561</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_9">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelMachineOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelMachine">
+       <property name="text">
+        <string>WORD    Machine</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditMachine"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QComboBox" name="comboBox">
+       <property name="maxVisibleItems">
+        <number>32</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="1" column="0">
+    <layout class="QGridLayout" name="gridLayout_2">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelNumberOfSectionsOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelNumberOfSections">
+       <property name="text">
+        <string>WORD    NumberOfSections</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditNumberOfSections"/>
+     </item>
+    </layout>
+   </item>
+   <item row="2" column="0">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelTimeDateStampOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditTimeDateStamp"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>TimeDateStamp</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="lineEditTimeDateStampHuman"/>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelTimeDateStamp">
+       <property name="text">
+        <string>DWORD   TimeDateStamp</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="3" column="0">
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelPointerToSymbolTableOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelPointerToSymbolTable">
+       <property name="text">
+        <string>DWORD   PointerToSymbolTable</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditPointerToSymbolTable">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="4" column="0">
+    <layout class="QGridLayout" name="gridLayout_5">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelNumberOfSymbolsOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelNumberOfSymbols">
+       <property name="text">
+        <string>DWORD   NumberOfSymbols</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditNumberOfSymbols">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="0">
+    <layout class="QGridLayout" name="gridLayout_6">
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelSizeOfOptionalHeaderOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelSizeOfOptionalHeader">
+       <property name="text">
+        <string>DWORD   SizeOfOptionalHeader</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditSizeOfOptionalHeader">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="0">
+    <layout class="QGridLayout" name="gridLayout_7">
+     <item row="0" column="1">
+      <widget class="QLabel" name="labelCharacteristics">
+       <property name="text">
+        <string>WORD    Characteristics</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QLineEdit" name="lineEditCharacteristics">
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="labelCharacteristicsOffset">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="7" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Characteristics</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_8">
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="text">
+         <string>LINE_NUMS_STRIPPED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBox_10">
+        <property name="text">
+         <string>DEBUG_STRIPPED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="text">
+         <string>LOCAL_SYMS_STRIPPED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBox_1">
+        <property name="text">
+         <string>RELOCS_STRIPPED</string>
+        </property>
+        <property name="tristate">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QCheckBox" name="checkBox_15">
+        <property name="text">
+         <string>UP_SYSTEM_ONLY</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="checkBox_12">
+        <property name="text">
+         <string>NET_RUN_FROM_SWAP</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QCheckBox" name="checkBox_14">
+        <property name="text">
+         <string>DLL</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBox_9">
+        <property name="text">
+         <string>32BIT_MACHINE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="text">
+         <string>LARGE_ADDRESS_AWARE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QCheckBox" name="checkBox_13">
+        <property name="text">
+         <string>SYSTEM</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="text">
+         <string>EXECUTABLE_IMAGE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="text">
+         <string>AGGRESIVE_WS_TRIM</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QCheckBox" name="checkBox_7">
+        <property name="text">
+         <string>RESERVED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBox_11">
+        <property name="text">
+         <string>REMOVABLE_RUN_FROM_SWAP</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QCheckBox" name="checkBox_8">
+        <property name="text">
+         <string>BYTES_REVERSED_LO</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QCheckBox" name="checkBox_16">
+        <property name="text">
+         <string>BYTES_REVERSED_HI</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

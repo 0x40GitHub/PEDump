@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PEDumpMainWindow</class>
+ <widget class="QMainWindow" name="PEDumpMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1148</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PEDumpMainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QMdiArea" name="mdiArea">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="background">
+       <brush brushstyle="SolidPattern">
+        <color alpha="0">
+         <red>209</red>
+         <green>207</green>
+         <blue>207</blue>
+        </color>
+       </brush>
+      </property>
+      <property name="viewMode">
+       <enum>QMdiArea::SubWindowView</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1148</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionMS_DOS_Header"/>
+   <addaction name="actionNT_Headers"/>
+   <addaction name="actionFile_Header"/>
+   <addaction name="actionOptionalHeader"/>
+   <addaction name="actionDataDirectory"/>
+   <addaction name="actionSections"/>
+   <addaction name="actionSavePEFile"/>
+   <addaction name="actionEditPE"/>
+   <addaction name="actionRVAToFOA"/>
+  </widget>
+  <action name="actionOpen">
+   <property name="text">
+    <string>Open</string>
+   </property>
+   <property name="toolTip">
+    <string>Open PE File</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="actionMS_DOS_Header">
+   <property name="text">
+    <string>MS-DOS Header</string>
+   </property>
+  </action>
+  <action name="actionNT_Headers">
+   <property name="text">
+    <string>NT Headers</string>
+   </property>
+  </action>
+  <action name="actionFile_Header">
+   <property name="text">
+    <string>File Header</string>
+   </property>
+  </action>
+  <action name="actionOptionalHeader">
+   <property name="text">
+    <string>OptionalHeader</string>
+   </property>
+  </action>
+  <action name="actionDataDirectory">
+   <property name="text">
+    <string>DataDirectory</string>
+   </property>
+  </action>
+  <action name="actionSections">
+   <property name="text">
+    <string>Sections</string>
+   </property>
+  </action>
+  <action name="actionSavePEFile">
+   <property name="text">
+    <string>SavePEFile</string>
+   </property>
+  </action>
+  <action name="actionEditPE">
+   <property name="text">
+    <string>EditPEFile</string>
+   </property>
+  </action>
+  <action name="actionRVAToFOA">
+   <property name="text">
+    <string>RVAToFOA</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

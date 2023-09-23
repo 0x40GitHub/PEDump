@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormSectionHeader</class>
+ <widget class="QWidget" name="FormSectionHeader">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>726</width>
+    <height>626</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Section characteristics</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QCheckBox" name="checkBox_1">
+        <property name="text">
+         <string>TYPE_REG</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QCheckBox" name="checkBox_14">
+        <property name="text">
+         <string>LNK_COMDAT</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QCheckBox" name="checkBox_30">
+        <property name="text">
+         <string>MEM_EXECUTE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QCheckBox" name="checkBox_2">
+        <property name="text">
+         <string>TYPE_DSECT</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QCheckBox" name="checkBox_15">
+        <property name="text">
+         <string>Reserved</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QCheckBox" name="checkBox_31">
+        <property name="text">
+         <string>MEM_READ</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QCheckBox" name="checkBox_3">
+        <property name="text">
+         <string>TYPE_NOLOAD</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QCheckBox" name="checkBox_16">
+        <property name="text">
+         <string>DEFER_SPEC_EXC</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QCheckBox" name="checkBox_32">
+        <property name="text">
+         <string>MEM_WRITE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QCheckBox" name="checkBox_4">
+        <property name="text">
+         <string>TYPE_GROUP</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="checkBox_17">
+        <property name="text">
+         <string>GPREL</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QCheckBox" name="checkBox_5">
+        <property name="text">
+         <string>TYPE_NO_PAD</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QCheckBox" name="checkBox_18">
+        <property name="text">
+         <string>MEM_SYSHEAP</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QCheckBox" name="checkBox_6">
+        <property name="text">
+         <string>TYPE_COPY</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QCheckBox" name="checkBox_19">
+        <property name="text">
+         <string>MEM_PURGEABLE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="0">
+       <widget class="QCheckBox" name="checkBox_7">
+        <property name="text">
+         <string>CNT_CODE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="6" column="1">
+       <widget class="QCheckBox" name="checkBox_20">
+        <property name="text">
+         <string>MEM_LOCKED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="0">
+       <widget class="QCheckBox" name="checkBox_8">
+        <property name="text">
+         <string>CNT_INITIALIZED_DATA</string>
+        </property>
+       </widget>
+      </item>
+      <item row="7" column="1">
+       <widget class="QCheckBox" name="checkBox_21">
+        <property name="text">
+         <string>MEM_PRELOAD</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="0">
+       <widget class="QCheckBox" name="checkBox_9">
+        <property name="text">
+         <string>CNT_UNINITIALIZED_DATA</string>
+        </property>
+       </widget>
+      </item>
+      <item row="8" column="1">
+       <widget class="QCheckBox" name="checkBox_25">
+        <property name="text">
+         <string>LNK_NRELOC_OVFL</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="0">
+       <widget class="QCheckBox" name="checkBox_10">
+        <property name="text">
+         <string>LNK_OTHER</string>
+        </property>
+       </widget>
+      </item>
+      <item row="9" column="1">
+       <widget class="QCheckBox" name="checkBox_26">
+        <property name="text">
+         <string>LNK_NRELOC_OVFL</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="0">
+       <widget class="QCheckBox" name="checkBox_11">
+        <property name="text">
+         <string>LNK_INFO</string>
+        </property>
+       </widget>
+      </item>
+      <item row="10" column="1">
+       <widget class="QCheckBox" name="checkBox_27">
+        <property name="text">
+         <string>MEM_NOT_CACHED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="0">
+       <widget class="QCheckBox" name="checkBox_12">
+        <property name="text">
+         <string>TYPE_OVER</string>
+        </property>
+       </widget>
+      </item>
+      <item row="11" column="1">
+       <widget class="QCheckBox" name="checkBox_28">
+        <property name="text">
+         <string>MEM_NOT_PAGED</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="0">
+       <widget class="QCheckBox" name="checkBox_13">
+        <property name="text">
+         <string>LNK_REMOVE</string>
+        </property>
+       </widget>
+      </item>
+      <item row="12" column="1">
+       <widget class="QCheckBox" name="checkBox_29">
+        <property name="text">
+         <string>MEM_SHARED</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>VirtualSize</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>VirtualAddress</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfRawData</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>PointerToRawData</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>PointerToRelocations</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>PointerToLinenumbers</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>NumberOfRelocations</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>NumberOfLinenumbers</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Characteristics</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Offset</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Value</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Size</string>
+      </property>
+     </column>
+     <item row="0" column="2">
+      <property name="text">
+       <string>BYTE</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="6" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="7" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="8" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="9" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormMSDOSHeader</class>
+ <widget class="QWidget" name="FormMSDOSHeader">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>432</width>
+    <height>383</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>WORD   e_magic</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+        <bold>true</bold>
+       </font>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_cblp</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_cp</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_crlc</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_cparhdr</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_minalloc</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_maxalloc</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_ss</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_sp</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_csum</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_ip</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_cs</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_lfarlc</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_ovno</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res[0]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res[1]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res[2]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res[3]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_oemid</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_oeminfo</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[0]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[1]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[2]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[3]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[4]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[5]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[6]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[7]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[8]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>WORD   e_res2[9]</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>LONG   e_lfanew</string>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Offset</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Value</string>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="font">
+       <font>
+        <bold>true</bold>
+       </font>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string/>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="textAlignment">
+       <set>AlignCenter</set>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

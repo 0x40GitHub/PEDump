@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormImportTable</class>
+ <widget class="QWidget" name="FormImportTable">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1243</width>
+    <height>648</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_3">
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <column>
+      <property name="text">
+       <string>Offset</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>OriginalFirstThunk</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>TimeDateStamp</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>ForwarderChain</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>FirstThunk</string>
+      </property>
+     </column>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox">
+     <property name="title">
+      <string>Import Lookup Table</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="0">
+       <widget class="QTableView" name="tableView_INT"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="title">
+      <string>Import Address Table</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="1" column="0">
+       <widget class="QTableView" name="tableView_IAT"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

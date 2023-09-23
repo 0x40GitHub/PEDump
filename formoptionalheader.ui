@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FormOptionalHeader</class>
+ <widget class="QWidget" name="FormOptionalHeader">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1017</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_4">
+   <item row="0" column="0">
+    <widget class="QTableWidget" name="tableWidget">
+     <row>
+      <property name="text">
+       <string>Magic</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MajorLinkerVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MinorLinkerVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfCode</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfInitializedData</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfUninitializedData</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>AddressOfEntryPoint</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>BaseOfCode</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>BaseOfData</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>ImageBase</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SectionAlignment</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>FileAlignment</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MajorOperatingSystemVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MinorOperatingSystemVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MajorImageVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MinorImageVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MajorSubsystemVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>MinorSubsystemVersion</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Win32VersionValue</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfImage</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfHeaders</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>CheckSum</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Subsystem</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>DllCharacteristics</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfStackReserve</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfStackCommit</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfHeapReserve</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>SizeOfHeapCommit</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>LoaderFlags</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>NumberOfRvaAndSizes</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string>Value</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Offset</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>Size</string>
+      </property>
+     </column>
+     <item row="0" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="1" column="2">
+      <property name="text">
+       <string>BYTE</string>
+      </property>
+     </item>
+     <item row="2" column="2">
+      <property name="text">
+       <string>BYTE</string>
+      </property>
+     </item>
+     <item row="3" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="4" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="5" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="6" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="7" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="8" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="9" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="10" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="11" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="12" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="13" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="14" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="15" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="16" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="17" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="18" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="19" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="20" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="21" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="22" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="23" column="2">
+      <property name="text">
+       <string>WORD</string>
+      </property>
+     </item>
+     <item row="24" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="25" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="26" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="27" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="28" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+     <item row="29" column="2">
+      <property name="text">
+       <string>DWORD</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <layout class="QGridLayout" name="gridLayout_3">
+     <item row="0" column="0">
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="labelSubsystem">
+         <property name="text">
+          <string>Subsystem</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QComboBox" name="comboBoxSubsystem">
+         <item>
+          <property name="text">
+           <string>UNKNOWN</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>NATIVE</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WINDOWS_GUI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WINDOWS_CUI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>OS2_CUI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>POSIX_CUI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>NATIVE_WINDOWS</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WINDOWS_CE_GUI</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>EFI_APPLICATION</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>EFI_BOOT_SERVICE_DRIVER</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>EFI_RUNTIME_DRIVER</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>EFI_ROM</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>XBOX</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>WINDOWS_BOOT_APPLICATION</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>XBOX_CODE_CATALOG</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="1" column="0">
+      <widget class="QGroupBox" name="groupBox">
+       <property name="title">
+        <string>DllCharacteristics</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QCheckBox" name="checkBox_1">
+          <property name="text">
+           <string>PROCESS_INIT</string>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QCheckBox" name="checkBox_9">
+          <property name="text">
+           <string>NX_COMPAT</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QCheckBox" name="checkBox_2">
+          <property name="text">
+           <string>PROCESS_TERM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QCheckBox" name="checkBox_10">
+          <property name="text">
+           <string>NO_ISOLATION</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QCheckBox" name="checkBox_3">
+          <property name="text">
+           <string>THREAD_INIT</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="QCheckBox" name="checkBox_11">
+          <property name="text">
+           <string>NO_SEH</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="0">
+         <widget class="QCheckBox" name="checkBox_4">
+          <property name="text">
+           <string>THREAD_TERM</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QCheckBox" name="checkBox_12">
+          <property name="text">
+           <string>NO_BIND</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="0">
+         <widget class="QCheckBox" name="checkBox_5">
+          <property name="text">
+           <string>RESERVED</string>
+          </property>
+         </widget>
+        </item>
+        <item row="4" column="1">
+         <widget class="QCheckBox" name="checkBox_13">
+          <property name="text">
+           <string>APPCONTAINER</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QCheckBox" name="checkBox_6">
+          <property name="text">
+           <string>HIGH_ENTROPY_VA</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QCheckBox" name="checkBox_14">
+          <property name="text">
+           <string>WDM_DRIVER</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="0">
+         <widget class="QCheckBox" name="checkBox_7">
+          <property name="text">
+           <string>DYNAMIC_BASE</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="1">
+         <widget class="QCheckBox" name="checkBox_15">
+          <property name="text">
+           <string>GUARD_CF</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="0">
+         <widget class="QCheckBox" name="checkBox_8">
+          <property name="text">
+           <string>FORCE_INTEGRITY</string>
+          </property>
+         </widget>
+        </item>
+        <item row="7" column="1">
+         <widget class="QCheckBox" name="checkBox_16">
+          <property name="text">
+           <string>TERMINAL_SERVER_AWARE</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
